@@ -92,6 +92,9 @@ body {
   padding: 3rem 4rem;
   border-radius: 3px; }
 
+@media (max-width: 550px) {
+  .site {
+    padding: 1.5 2rem; } }
 main {
   display: flex;
   flex-wrap: wrap;
@@ -161,6 +164,10 @@ header {
   @media (max-width: 575px) {
     header .header-right {
       justify-content: center; } }
+  @media (max-width: 430px) {
+    header .contact {
+      width: 60%;
+      margin: 0 auto; } }
 
 article h2 {
   padding-bottom: .1rem;

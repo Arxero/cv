@@ -1,0 +1,27 @@
+/* site */
+@media (max-width: 550px) {
+    .site {
+        padding: 1.5 2rem;
+    }
+}
+
+/* typography */
+@media screen and (min-width: 500px) {
+    html {
+        font-size: var(--font-size);
+    }
+}
+
+/* header */
+@media (max-width: 575px) {
+    .header-right {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 430px) {
+    .contact {
+        width: 60%;
+        margin: 0 auto;
+    }
+}

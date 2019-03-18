@@ -1,10 +1,10 @@
-// whitespace reset
+/* whitespace reset */
 * {
     margin: 0;
     padding: 0;
 }
 
-// box-sizing fix
+/* box-sizing fix */
 html {
     box-sizing: border-box;
 }
@@ -13,9 +13,4 @@ html {
 *::before,
 * ::after {
     box-sizing: inherit;
-}
-
-// browsersync notification
-#__bs_notify__ {
-    display: none !important;
 }

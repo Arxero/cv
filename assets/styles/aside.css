@@ -1,0 +1,123 @@
+aside h2 {
+    padding-bottom: .1rem;
+    text-transform: uppercase;
+    border-bottom: var(--primary-border);
+    margin-bottom: .8rem;
+}
+
+aside h3 {
+    text-transform: capitalize;
+    color: var(--primary-red);
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+aside .summary {
+    margin-bottom: 1.5rem;
+}
+
+/* technologies */
+
+aside .technologies ul {
+    margin-top: .3rem;
+    flex-wrap: wrap;
+    display: flex;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+/* languages */
+
+aside .languages li {
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside .languages li:hover {
+    filter: brightness(120%);
+}
+
+aside .languages li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+aside .languages .language {
+    flex: 1 1 40%;
+}
+
+aside .languages .language-title {
+    font-weight: bold;
+}
+
+aside .languages .language-level {
+    color: gray;
+    font-size: .9rem;
+}
+
+/* passions */
+
+aside .passions li {
+    font-weight: bold;
+    padding: .5rem 0;
+}
+
+aside .passions span {
+    border-bottom: 2px solid transparent;
+}
+
+aside .passions span:hover {
+    padding-bottom: .2rem;
+    border-bottom: 2px solid var(--primary-red);
+}
+
+aside .passions i {
+    font-size: 1.2rem;
+    color: var(--blue);
+    margin-right: .7rem;
+}
+
+aside .passions li:hover i {
+    color: var(--primary-red);
+}
+
+/* most proud of */
+
+.most-proud-of li {
+    padding: .5rem 0;
+}
+
+.most-proud-of li:hover i {
+    color: var(--primary-red);
+}
+
+.most-proud-of a {
+    color: var(--primary-color);
+}
+
+.most-proud-of a:hover {
+    color: var(--blue);
+}
+
+.most-proud-of i {
+    font-size: 1.2rem;
+    color: var(--blue);
+    margin-right: .7rem;
+}
+
+.most-proud-of .most-proud-of-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.most-proud-of-item .content {
+    flex: 1 1 80%;
+}
+
+.most-proud-of-item .title {
+    font-weight: bold;
+}

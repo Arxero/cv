@@ -1,15 +1,8 @@
 html {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
-    font-size: $fonr-size-mobile;
-    color: $primary-color;
-}
-
-
-@media screen and (min-width: 500px) {
-    html {
-        font-size: $font-size;
-    }
+    font-size:  var(--font-size-mobile);
+    color: var(--primary-color);
 }
 
 body, table, th, td, form, input, textarea, option, select {
@@ -17,13 +10,13 @@ body, table, th, td, form, input, textarea, option, select {
 }
 
 a {
-    color: $blue;
+    color: var(--blue);
     text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
 }
+a:hover {
+    text-decoration: none;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Serif', serif;
@@ -54,4 +47,3 @@ blockquote .author {
     text-align: right;
     padding-top: 1rem;
 }
-

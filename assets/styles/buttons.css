@@ -1,0 +1,52 @@
+.btn-primary {
+    padding: .2rem .4rem;
+    border: 2px solid gray;
+    margin: 0 .5rem .5rem 0;
+    border-radius: 3px;
+}
+
+.btn-primary:hover {
+    background: var(--blue);
+    transition: background-color .5s ease-in-out;
+    color: #eeeeee;
+    border: 2px solid transparent;
+}
+
+.language-graph {
+    flex: 1 1 55%;
+    position: relative;
+}
+
+.language-graph-blue {
+    background: var(--blue);
+    height: .9rem;
+    border-radius: 30px;
+    width: 99%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+.language-graph-red {
+    position: absolute;
+    background: var(--primary-red);
+    height: .9rem;
+    border-radius: 30px;
+    width: 80%;
+    top: 50%;
+    left: -1%;
+    transform: translateY(-50%);
+}
+
+.language-graph-red-100 {
+    position: absolute;
+    background: var(--primary-red);
+    height: .9rem;
+    border-radius: 30px;
+    width: 101%;
+    top: 50%;
+    left: -1%;
+    transform: translateY(-50%);
+}

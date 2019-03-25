@@ -18,6 +18,22 @@ header .header-left {
     line-height: 1;
 }
 
+.header-left .name a {
+    color: var(--primary-color);
+    display: table;
+}
+
+.header-left .name a:hover i {
+    display: table-cell;
+}
+
+.header-left .name i {
+    font-size: 1.4rem;
+    padding-left: .3rem;
+    vertical-align: middle;
+    display: none;
+}
+
 .header-left .profession {
     font-weight: bold;
     color: var(--blue);

@@ -36,6 +36,7 @@ aside .languages li {
     text-transform: capitalize;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 aside .languages li:hover {
@@ -91,7 +92,7 @@ aside .passions li:hover i {
     padding: .5rem 0;
 }
 
-.most-proud-of li:hover i {
+.most-proud-of li:hover i:not(.fa-external-link-alt) {
     color: var(--primary-red);
 }
 
@@ -120,4 +121,13 @@ aside .passions li:hover i {
 
 .most-proud-of-item .title {
     font-weight: bold;
+}
+
+.most-proud-of .fa-external-link-alt {
+    padding-left: .4rem;
+    font-size: .9rem;
+}
+
+.fa-external-link-alt:hover {
+    animation: jump 1.5s ease 0s infinite normal ;
 }

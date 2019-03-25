@@ -1,7 +1,7 @@
 /* site */
 @media (max-width: 550px) {
     .site {
-        padding: 1.5 2rem;
+        padding: 1.5rem 2rem;
     }
 }
 
@@ -23,5 +23,8 @@
     .contact {
         width: 60%;
         margin: 0 auto;
+    }
+    .site {
+        padding: 1.5rem 1rem;
     }
 }

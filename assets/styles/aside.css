@@ -65,21 +65,24 @@ aside .languages .language-level {
 aside .passions li {
     font-weight: bold;
     padding: .5rem 0;
+    display: flex;
+    align-items: center;
 }
 
 aside .passions span {
+    padding-bottom: .2rem;
     border-bottom: 2px solid transparent;
 }
 
 aside .passions span:hover {
-    padding-bottom: .2rem;
-    border-bottom: 2px solid var(--primary-red);
+    border-color: var(--primary-red);
 }
 
 aside .passions i {
     font-size: 1.2rem;
     color: var(--blue);
     margin-right: .7rem;
+    padding-bottom: .2rem;
 }
 
 aside .passions li:hover i {
